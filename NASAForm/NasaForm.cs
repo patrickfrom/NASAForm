@@ -54,7 +54,7 @@ namespace NASAForm
 
                 foreach (var item in info["close_approach_data"])
                 {
-                    speedLabel.Text = "Km/s \n" + item["relative_velocity"]["kilometers_per_hour"];
+                    speedLabel.Text = "Km/h \n" + item["relative_velocity"]["kilometers_per_hour"];
                     orbitLabel.Text = "Orbit \n" + item["orbiting_body"];
                     break;
                 }
